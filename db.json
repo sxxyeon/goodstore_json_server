@@ -1,9 +1,231 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "cart": [],
+  "hots": [
+    {
+      "id": "19",
+      "cat": "1",
+      "name": "goods point",
+      "provider": "bigbang",
+      "price": 17100,
+      "image": "/img/hot_prod_01.png"
+    },
+    {
+      "id": "20",
+      "cat": "2",
+      "name": "goods point",
+      "provider": "blackpink",
+      "price": 13000,
+      "image": "/img/hot_prod_02.png"
+    },
+    {
+      "id": "21",
+      "cat": "3",
+      "name": "bang bong",
+      "provider": "100-QM",
+      "price": 17000,
+      "image": "/img/hot_prod_03.png"
+    },
+    {
+      "id": "22",
+      "cat": "4",
+      "name": "2nd album",
+      "provider": "iphone",
+      "price": 1900,
+      "image": "/img/hot_prod_04.png"
+    },
+    {
+      "id": "23",
+      "cat": "2",
+      "name": "winner 3rd album",
+      "provider": "winner",
+      "price": 99000,
+      "image": "/img/hot_prod_05.png"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products": [
+    {
+      "id": "1",
+      "cat": "1",
+      "name": "선크림",
+      "provider": "아이돈케어",
+      "price": 17100,
+      "image": "/img/01_prod_01.png"
+    },
+    {
+      "id": "2",
+      "cat": "1",
+      "name": "병풀추출물 토너",
+      "provider": "gorigory",
+      "price": 13000,
+      "image": "/img/01_prod_02.png"
+    },
+    {
+      "id": "3",
+      "cat": "1",
+      "name": "고데기",
+      "provider": "100-QM",
+      "price": 17000,
+      "image": "/img/01_prod_03.png"
+    },
+    {
+      "id": "4",
+      "cat": "1",
+      "name": "아이폰 스티커 팩",
+      "provider": "iphone",
+      "price": 1900,
+      "image": "/img/01_prod_04.png"
+    },
+    {
+      "id": "5",
+      "cat": "1",
+      "name": "키보드",
+      "provider": "qten",
+      "price": 99000,
+      "image": "/img/01_prod_05.png"
+    },
+    {
+      "id": "6",
+      "cat": "1",
+      "name": "테이블",
+      "provider": "인테리어",
+      "price": 69000,
+      "image": "/img/01_prod_06.png"
+    },
+    {
+      "id": "7",
+      "cat": "2",
+      "name": "생리대",
+      "provider": "더샘",
+      "price": 19100,
+      "image": "/img/02_prod_01.png"
+    },
+    {
+      "id": "8",
+      "cat": "2",
+      "name": "세제",
+      "provider": "persil",
+      "price": 3500,
+      "image": "/img/02_prod_02.png"
+    },
+    {
+      "id": "9",
+      "cat": "2",
+      "name": "밀푀유 나베",
+      "provider": "밀키트",
+      "price": 6700,
+      "image": "/img/02_prod_03.png"
+    },
+    {
+      "id": "10",
+      "cat": "2",
+      "name": "세탁세제",
+      "provider": "생활용품",
+      "price": 3900,
+      "image": "/img/02_prod_04.png"
+    },
+    {
+      "id": "11",
+      "cat": "2",
+      "name": "휴지",
+      "provider": "한예지",
+      "price": 4700,
+      "image": "/img/02_prod_05.png"
+    },
+    {
+      "id": "12",
+      "cat": "3",
+      "name": "아이패드",
+      "provider": "apple",
+      "price": 997000,
+      "image": "/img/03_prod_01.png"
+    },
+    {
+      "id": "13",
+      "cat": "3",
+      "name": "믹서기",
+      "provider": "canon",
+      "price": 15900,
+      "image": "/img/03_prod_02.png"
+    },
+    {
+      "id": "14",
+      "cat": "3",
+      "name": "led tv",
+      "provider": "samsung",
+      "price": 125900,
+      "image": "/img/03_prod_03.png"
+    },
+    {
+      "id": "15",
+      "cat": "3",
+      "name": "선풍기",
+      "provider": "윈드메이커",
+      "price": 55900,
+      "image": "/img/03_prod_04.png"
+    },
+    {
+      "id": "16",
+      "cat": "4",
+      "name": "산양유 프로틴 골드",
+      "provider": "오가닉가든",
+      "price": 12300,
+      "image": "/img/04_prod_01.png"
+    },
+    {
+      "id": "17",
+      "cat": "4",
+      "name": "비타민d",
+      "provider": "정관장",
+      "price": 32200,
+      "image": "/img/04_prod_02.png"
+    },
+    {
+      "id": "18",
+      "cat": "4",
+      "name": "루테인 플러스",
+      "provider": "웰라이프",
+      "price": 27300,
+      "image": "/img/04_prod_03.png"
+    },
+    {
+      "id": "19",
+      "cat": "1",
+      "name": "goods point",
+      "provider": "bigbang",
+      "price": 17100,
+      "image": "/img/hot_prod_01.png"
+    },
+    {
+      "id": "20",
+      "cat": "2",
+      "name": "goods point",
+      "provider": "blackpink",
+      "price": 13000,
+      "image": "/img/hot_prod_02.png"
+    },
+    {
+      "id": "21",
+      "cat": "3",
+      "name": "bang bong",
+      "provider": "100-QM",
+      "price": 17000,
+      "image": "/img/hot_prod_03.png"
+    },
+    {
+      "id": "22",
+      "cat": "4",
+      "name": "2nd album",
+      "provider": "iphone",
+      "price": 1900,
+      "image": "/img/hot_prod_04.png"
+    },
+    {
+      "id": "23",
+      "cat": "2",
+      "name": "winner 3rd album",
+      "provider": "winner",
+      "price": 99000,
+      "image": "/img/hot_prod_05.png"
+    }
+  ]
 }
